@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ITNiels.FluentSlackClient</RootNamespace>
+    <AssemblyName>ITNiels.FluentSlackClient</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.1</Version>
+    <Authors>ITNiels</Authors>
+    <Company>ITNiels Solutions</Company>
+    <Product>Fluent Slack Client</Product>
+    <Description>A wrapper for SlackAPI project on GitHub made by numedia to make it fluent.
+All credits go to them for the hard work.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>slack,api,fluent</PackageTags>
+    <AssemblyVersion>0.0.1.1</AssemblyVersion>
+    <FileVersion>0.0.1.1</FileVersion>
+    <PackageReleaseNotes>This is super early release, and can only make Color bar attachemnts at this point. More will come later</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SlackAPI" Version="1.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Types\" />
+  </ItemGroup>
+
+</Project>
